@@ -21,12 +21,14 @@ class CreateArticle extends Component
     {
         $this->form->fStore();  
         $this -> esModalAbierta = false;
+        $this -> form -> fReset();
         $this->dispatch('onArticuloCreado')->to(ArticleController::class);
-        $this->dispatch('mensaje', "Categoría insertada correctamente.");
+        $this->dispatch('mensaje', "Artículo insertado correctamente.");
     }
 
     public function cancelar() { // Método para cerrar la modal
-        $this -> esModalAbierta = false;
         $this -> form -> fReset();
+        $this -> esModalAbierta = false;
+        
     }
 }

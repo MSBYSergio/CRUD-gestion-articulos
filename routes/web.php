@@ -18,7 +18,7 @@ Route::middleware([
     'verified',
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return view('dashboard');
+        return view('welcome');
     })->name('dashboard');
     Route::resource('tags', TagController::class)->except('show')->middleware(IsAdminMiddleware::class);
     Route::get('user-articles', ArticleController::class)->name('user-articles');
