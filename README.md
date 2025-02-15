@@ -1,8 +1,8 @@
 # 📌 Gestión de Artículos  
 
-![Imagen del inicio de artículos.](/public/images/articles-index.png)
-![Imagen del inicio de tags.](/public/images/tags-index.png)
-![Imagen del inicio de tags.](/public/images/contacto.png)
+<img src="/public/images/articles-index.png" width="400" height="400" alt="Imagen del inicio de artículos.">
+<img src="/public/images/tags-index.png" width="400" height="400" alt="Imagen del inicio de tags.">
+<img src="/public/images/contacto.png" width="400" height="400" alt="Imagen del formulario de contacto.">
 
 ## 📖 Descripción  
 
@@ -54,4 +54,4 @@ php artisan migrate:fresh --seed
 ```bash
 php artisan serve
 ```
-> Ya puede acceder a [localmente](https://localhost:8000/).
+> Ya puede acceder a [localmente](localhost:8000).
