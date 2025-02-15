@@ -10,7 +10,7 @@ Este proyecto permite a los usuarios gestionar sus propios artículos, los cuale
 
 ## 🛠 Tecnologías utilizadas  
 
-- **Laravel Jetstream + Mailer** – Autenticación y gestión de usuarios.  
+- **Laravel Jetstream + Mailer** – Implementado un CRUD para las tablas Articles y Tags además de auntenticación al iniciar sesión.  
 - **Plantillas Blade** – Motor de plantillas de Laravel.  
 - **Tailwind CSS** – Estilos y diseño responsivo.
 - **Mailtrap** - Para auntenticar el inicio de sesión y enviar un email de contacto
