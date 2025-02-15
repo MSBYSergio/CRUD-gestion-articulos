@@ -1,8 +1,8 @@
 # 📌 Gestión de Artículos  
 
-<img src="/public/images/articles-index.png" width="400" height="400" alt="Imagen del inicio de artículos.">
-<img src="/public/images/tags-index.png" width="400" height="400" alt="Imagen del inicio de tags.">
-<img src="/public/images/contacto.png" width="400" height="400" alt="Imagen del formulario de contacto.">
+<img src="/public/images/articles-index.png" alt="Imagen del inicio de artículos.">
+<img src="/public/images/tags-index.png" alt="Imagen del inicio de tags.">
+<img src="/public/images/contacto.png"  alt="Imagen del formulario de contacto.">
 
 ## 📖 Descripción  
 
